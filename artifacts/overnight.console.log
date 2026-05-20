@@ -1,0 +1,100 @@
+
+######################################################################
+# STAGE 1 — VO reliability  ::  /home/coding/VO_Project/.venv/bin/python /home/coding/VO_Project/scripts/train_stage1.py
+######################################################################
+[03:23:23] device=cuda use_image=True smoke=False
+[03:23:24] loading 60 runs (images=True) ...
+[03:27:49] loaded 253167 samples in 264s
+[03:27:50] train rows=182592  val rows=34173
+[03:28:21] epoch   1/60  train_loss=0.0161  val_mse=0.0340  corr(v,w)=(0.777,0.489)  17s
+[03:28:21]   saved best (val_mse=0.0340)
+[03:28:40] epoch   2/60  train_loss=0.0145  val_mse=0.0313  corr(v,w)=(0.786,0.526)  19s
+[03:28:40]   saved best (val_mse=0.0313)
+[03:28:56] epoch   3/60  train_loss=0.0142  val_mse=0.0317  corr(v,w)=(0.783,0.525)  15s
+[03:29:13] epoch   4/60  train_loss=0.0140  val_mse=0.0312  corr(v,w)=(0.790,0.532)  18s
+[03:29:13]   saved best (val_mse=0.0312)
+[03:29:28] epoch   5/60  train_loss=0.0138  val_mse=0.0309  corr(v,w)=(0.791,0.532)  15s
+[03:29:28]   saved best (val_mse=0.0309)
+[03:29:46] epoch   6/60  train_loss=0.0137  val_mse=0.0313  corr(v,w)=(0.789,0.531)  18s
+[03:30:00] epoch   7/60  train_loss=0.0137  val_mse=0.0311  corr(v,w)=(0.790,0.533)  15s
+[03:30:15] epoch   8/60  train_loss=0.0136  val_mse=0.0313  corr(v,w)=(0.789,0.534)  15s
+[03:30:33] epoch   9/60  train_loss=0.0135  val_mse=0.0316  corr(v,w)=(0.786,0.515)  18s
+[03:30:47] epoch  10/60  train_loss=0.0135  val_mse=0.0312  corr(v,w)=(0.785,0.532)  15s
+[03:31:05] epoch  11/60  train_loss=0.0134  val_mse=0.0312  corr(v,w)=(0.785,0.537)  17s
+[03:31:20] epoch  12/60  train_loss=0.0133  val_mse=0.0314  corr(v,w)=(0.784,0.528)  15s
+[03:31:38] epoch  13/60  train_loss=0.0132  val_mse=0.0313  corr(v,w)=(0.786,0.529)  18s
+[03:31:52] epoch  14/60  train_loss=0.0132  val_mse=0.0315  corr(v,w)=(0.783,0.531)  15s
+[03:32:10] epoch  15/60  train_loss=0.0131  val_mse=0.0317  corr(v,w)=(0.781,0.531)  18s
+[03:32:25] epoch  16/60  train_loss=0.0129  val_mse=0.0317  corr(v,w)=(0.783,0.521)  15s
+[03:32:43] epoch  17/60  train_loss=0.0129  val_mse=0.0325  corr(v,w)=(0.777,0.508)  18s
+[03:32:57] epoch  18/60  train_loss=0.0127  val_mse=0.0320  corr(v,w)=(0.779,0.521)  14s
+[03:33:12] epoch  19/60  train_loss=0.0126  val_mse=0.0347  corr(v,w)=(0.784,0.470)  15s
+[03:33:30] epoch  20/60  train_loss=0.0124  val_mse=0.0329  corr(v,w)=(0.782,0.483)  18s
+[03:33:45] epoch  21/60  train_loss=0.0122  val_mse=0.0343  corr(v,w)=(0.777,0.465)  15s
+[03:34:03] epoch  22/60  train_loss=0.0120  val_mse=0.0332  corr(v,w)=(0.781,0.478)  18s
+[03:34:18] epoch  23/60  train_loss=0.0118  val_mse=0.0356  corr(v,w)=(0.780,0.462)  15s
+[03:34:36] epoch  24/60  train_loss=0.0116  val_mse=0.0330  corr(v,w)=(0.776,0.494)  18s
+[03:34:51] epoch  25/60  train_loss=0.0115  val_mse=0.0328  corr(v,w)=(0.774,0.509)  15s
+[03:35:09] epoch  26/60  train_loss=0.0113  val_mse=0.0335  corr(v,w)=(0.779,0.474)  18s
+[03:35:24] epoch  27/60  train_loss=0.0111  val_mse=0.0330  corr(v,w)=(0.775,0.493)  15s
+[03:35:42] epoch  28/60  train_loss=0.0110  val_mse=0.0349  corr(v,w)=(0.777,0.454)  18s
+[03:35:57] epoch  29/60  train_loss=0.0108  val_mse=0.0334  corr(v,w)=(0.775,0.473)  15s
+[03:36:15] epoch  30/60  train_loss=0.0107  val_mse=0.0346  corr(v,w)=(0.776,0.456)  18s
+[03:36:31] epoch  31/60  train_loss=0.0105  val_mse=0.0416  corr(v,w)=(0.776,0.419)  16s
+[03:36:49] epoch  32/60  train_loss=0.0104  val_mse=0.0347  corr(v,w)=(0.773,0.464)  18s
+[03:37:04] epoch  33/60  train_loss=0.0103  val_mse=0.0354  corr(v,w)=(0.773,0.439)  15s
+[03:37:23] epoch  34/60  train_loss=0.0101  val_mse=0.0338  corr(v,w)=(0.771,0.468)  18s
+[03:37:38] epoch  35/60  train_loss=0.0099  val_mse=0.0339  corr(v,w)=(0.770,0.468)  15s
+[03:37:53] epoch  36/60  train_loss=0.0098  val_mse=0.0375  corr(v,w)=(0.768,0.435)  15s
+[03:38:08] epoch  37/60  train_loss=0.0097  val_mse=0.0341  corr(v,w)=(0.769,0.467)  15s
+[03:38:28] epoch  38/60  train_loss=0.0096  val_mse=0.0354  corr(v,w)=(0.765,0.449)  20s
+[03:38:45] epoch  39/60  train_loss=0.0094  val_mse=0.0350  corr(v,w)=(0.767,0.449)  17s
+[03:39:03] epoch  40/60  train_loss=0.0093  val_mse=0.0356  corr(v,w)=(0.766,0.440)  18s
+[03:39:18] epoch  41/60  train_loss=0.0092  val_mse=0.0375  corr(v,w)=(0.764,0.423)  15s
+[03:39:36] epoch  42/60  train_loss=0.0091  val_mse=0.0358  corr(v,w)=(0.761,0.437)  18s
+[03:39:51] epoch  43/60  train_loss=0.0090  val_mse=0.0360  corr(v,w)=(0.764,0.436)  16s
+[03:40:10] epoch  44/60  train_loss=0.0089  val_mse=0.0373  corr(v,w)=(0.763,0.422)  19s
+[03:40:25] epoch  45/60  train_loss=0.0088  val_mse=0.0363  corr(v,w)=(0.761,0.435)  15s
+[03:40:44] epoch  46/60  train_loss=0.0087  val_mse=0.0383  corr(v,w)=(0.758,0.417)  18s
+[03:40:59] epoch  47/60  train_loss=0.0086  val_mse=0.0373  corr(v,w)=(0.761,0.423)  15s
+[03:41:17] epoch  48/60  train_loss=0.0085  val_mse=0.0373  corr(v,w)=(0.759,0.424)  18s
+[03:41:33] epoch  49/60  train_loss=0.0085  val_mse=0.0371  corr(v,w)=(0.759,0.421)  16s
+[03:41:51] epoch  50/60  train_loss=0.0084  val_mse=0.0380  corr(v,w)=(0.758,0.418)  18s
+[03:42:07] epoch  51/60  train_loss=0.0083  val_mse=0.0375  corr(v,w)=(0.757,0.421)  15s
+[03:42:25] epoch  52/60  train_loss=0.0083  val_mse=0.0380  corr(v,w)=(0.755,0.413)  18s
+[03:42:40] epoch  53/60  train_loss=0.0082  val_mse=0.0380  corr(v,w)=(0.755,0.416)  15s
+[03:42:59] epoch  54/60  train_loss=0.0082  val_mse=0.0379  corr(v,w)=(0.756,0.416)  18s
+[03:43:14] epoch  55/60  train_loss=0.0082  val_mse=0.0381  corr(v,w)=(0.754,0.415)  15s
+[03:43:32] epoch  56/60  train_loss=0.0081  val_mse=0.0383  corr(v,w)=(0.756,0.414)  18s
+[03:43:48] epoch  57/60  train_loss=0.0081  val_mse=0.0384  corr(v,w)=(0.755,0.414)  16s
+[03:44:07] epoch  58/60  train_loss=0.0081  val_mse=0.0383  corr(v,w)=(0.755,0.414)  19s
+[03:44:22] epoch  59/60  train_loss=0.0081  val_mse=0.0385  corr(v,w)=(0.755,0.412)  15s
+[03:44:41] epoch  60/60  train_loss=0.0081  val_mse=0.0385  corr(v,w)=(0.755,0.413)  18s
+[03:44:41] inferring reliability over all VO samples ...
+[03:44:57] done. reliability.npy written (253167 samples).
+# STAGE 1 — VO reliability finished in 1298s (exit 0)
+
+######################################################################
+# STAGE 2 — learned fusion  ::  /home/coding/VO_Project/.venv/bin/python /home/coding/VO_Project/scripts/train_stage2.py
+######################################################################
+[03:45:00] device=cuda smoke=False seeds=5 epochs=400
+[03:45:02] runs: train=44 val=8 test=8
+[03:46:10]   seed 0: best val_ate=1.387
+[03:46:10]   seed 0: train=0.804 val=1.387 test=1.605
+[03:47:17]   seed 1: best val_ate=1.272
+[03:47:17]   seed 1: train=0.897 val=1.272 test=1.467
+[03:48:25]   seed 2: best val_ate=1.433
+[03:48:25]   seed 2: train=0.902 val=1.433 test=1.701
+[03:49:33]   seed 3: best val_ate=1.211
+[03:49:33]   seed 3: train=1.043 val=1.211 test=1.561
+[03:50:39]   seed 4: best val_ate=1.397
+[03:50:39]   seed 4: train=0.869 val=1.397 test=1.802
+[03:50:39] 
+FINAL — fused ATE across 5 seeds (metres):
+[03:50:39]   train  wheel=1.945  const=1.012  FUSED=0.903+/-0.078   (+54% vs wheel)
+[03:50:39]   val    wheel=1.857  const=1.152  FUSED=1.340+/-0.084   (+28% vs wheel)
+[03:50:39]   test   wheel=2.243  const=1.189  FUSED=1.627+/-0.115   (+27% vs wheel)
+[03:50:39] done.
+# STAGE 2 — learned fusion finished in 341s (exit 0)
+
+Overnight chain complete. See artifacts/stage2/summary.json

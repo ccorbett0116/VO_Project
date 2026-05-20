@@ -1,0 +1,18 @@
+[19:57:37] device=cuda smoke=False seeds=5 epochs=400
+[19:57:38] runs: train=44 val=8 test=8
+[19:59:07]   seed 0: best val_ate=1.454
+[19:59:08]   seed 0: train=1.039 val=1.454 test=1.821
+[20:00:34]   seed 1: best val_ate=1.328
+[20:00:34]   seed 1: train=0.970 val=1.328 test=1.694
+[20:02:02]   seed 2: best val_ate=1.298
+[20:02:02]   seed 2: train=0.860 val=1.298 test=1.640
+[20:03:28]   seed 3: best val_ate=1.395
+[20:03:29]   seed 3: train=0.748 val=1.395 test=1.637
+[20:04:57]   seed 4: best val_ate=1.447
+[20:04:57]   seed 4: train=0.959 val=1.447 test=1.777
+[20:04:57] 
+FINAL — fused ATE across 5 seeds (metres):
+[20:04:57]   train  wheel=1.945  const=1.012  FUSED=0.915+/-0.101   (+53% vs wheel)
+[20:04:57]   val    wheel=1.857  const=1.152  FUSED=1.384+/-0.063   (+25% vs wheel)
+[20:04:57]   test   wheel=2.243  const=1.189  FUSED=1.714+/-0.074   (+24% vs wheel)
+[20:04:57] done.

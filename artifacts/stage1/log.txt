@@ -1,0 +1,40 @@
+[19:51:39] device=cuda use_image=False smoke=False
+[19:51:41] loading 60 runs (images=False) ...
+[19:51:41] loaded 253167 samples in 0s
+[19:51:41] train rows=182592  val rows=34173
+[19:51:55] epoch   1/25  train_loss=0.0158  val_mse=0.0318  corr(v,w)=(0.778,0.521)  13s
+[19:51:55]   saved best (val_mse=0.0318)
+[19:52:10] epoch   2/25  train_loss=0.0143  val_mse=0.0312  corr(v,w)=(0.785,0.529)  16s
+[19:52:10]   saved best (val_mse=0.0312)
+[19:52:23] epoch   3/25  train_loss=0.0141  val_mse=0.0313  corr(v,w)=(0.787,0.535)  12s
+[19:52:35] epoch   4/25  train_loss=0.0140  val_mse=0.0309  corr(v,w)=(0.789,0.535)  13s
+[19:52:35]   saved best (val_mse=0.0309)
+[19:52:50] epoch   5/25  train_loss=0.0139  val_mse=0.0308  corr(v,w)=(0.790,0.535)  15s
+[19:52:50]   saved best (val_mse=0.0308)
+[19:53:02] epoch   6/25  train_loss=0.0139  val_mse=0.0308  corr(v,w)=(0.791,0.537)  12s
+[19:53:02]   saved best (val_mse=0.0308)
+[19:53:18] epoch   7/25  train_loss=0.0139  val_mse=0.0312  corr(v,w)=(0.787,0.537)  15s
+[19:53:30] epoch   8/25  train_loss=0.0138  val_mse=0.0309  corr(v,w)=(0.790,0.537)  12s
+[19:53:42] epoch   9/25  train_loss=0.0138  val_mse=0.0309  corr(v,w)=(0.791,0.538)  12s
+[19:53:58] epoch  10/25  train_loss=0.0138  val_mse=0.0309  corr(v,w)=(0.790,0.537)  16s
+[19:54:10] epoch  11/25  train_loss=0.0138  val_mse=0.0308  corr(v,w)=(0.790,0.538)  12s
+[19:54:26] epoch  12/25  train_loss=0.0137  val_mse=0.0307  corr(v,w)=(0.791,0.538)  15s
+[19:54:26]   saved best (val_mse=0.0307)
+[19:54:38] epoch  13/25  train_loss=0.0137  val_mse=0.0308  corr(v,w)=(0.791,0.537)  12s
+[19:54:50] epoch  14/25  train_loss=0.0137  val_mse=0.0307  corr(v,w)=(0.790,0.539)  12s
+[19:54:50]   saved best (val_mse=0.0307)
+[19:55:06] epoch  15/25  train_loss=0.0137  val_mse=0.0307  corr(v,w)=(0.791,0.539)  16s
+[19:55:19] epoch  16/25  train_loss=0.0137  val_mse=0.0306  corr(v,w)=(0.791,0.539)  13s
+[19:55:19]   saved best (val_mse=0.0306)
+[19:55:33] epoch  17/25  train_loss=0.0137  val_mse=0.0306  corr(v,w)=(0.792,0.540)  14s
+[19:55:33]   saved best (val_mse=0.0306)
+[19:55:45] epoch  18/25  train_loss=0.0137  val_mse=0.0306  corr(v,w)=(0.791,0.539)  12s
+[19:55:58] epoch  19/25  train_loss=0.0136  val_mse=0.0306  corr(v,w)=(0.791,0.540)  12s
+[19:56:13] epoch  20/25  train_loss=0.0136  val_mse=0.0307  corr(v,w)=(0.792,0.539)  16s
+[19:56:26] epoch  21/25  train_loss=0.0136  val_mse=0.0306  corr(v,w)=(0.792,0.540)  13s
+[19:56:38] epoch  22/25  train_loss=0.0136  val_mse=0.0307  corr(v,w)=(0.792,0.540)  12s
+[19:56:53] epoch  23/25  train_loss=0.0136  val_mse=0.0306  corr(v,w)=(0.792,0.540)  15s
+[19:57:06] epoch  24/25  train_loss=0.0136  val_mse=0.0306  corr(v,w)=(0.792,0.540)  12s
+[19:57:21] epoch  25/25  train_loss=0.0136  val_mse=0.0306  corr(v,w)=(0.792,0.540)  15s
+[19:57:21] inferring reliability over all VO samples ...
+[19:57:35] done. reliability.npy written (253167 samples).
